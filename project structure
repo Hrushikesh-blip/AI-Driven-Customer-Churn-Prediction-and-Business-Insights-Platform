@@ -1,0 +1,29 @@
+Customer-Churn-Prediction/
+├── README.md
+├── data/
+│   ├── raw/                     # Raw datasets
+│   ├── processed/               # Cleaned datasets
+├── notebooks/
+│   ├── 01-data-exploration.ipynb # Data analysis & cleaning
+│   ├── 02-feature-engineering.ipynb # Feature extraction
+│   ├── 03-model-training.ipynb  # Machine learning model training
+│   ├── 04-visualizations.ipynb  # Visualizations for insights
+├── src/
+│   ├── data_processing.py        # Data preprocessing scripts
+│   ├── train_model.py            # Script to train the model
+│   ├── predict.py                # Script for predictions
+├── app/
+│   ├── templates/
+│   │   ├── dashboard.html        # HTML for the dashboard
+│   ├── static/
+│   │   ├── style.css             # Stylesheets
+│   ├── app.py                    # Flask/Django app
+├── models/
+│   ├── churn_model.pkl           # Trained machine learning model
+├── tests/
+│   ├── test_data_processing.py   # Unit tests for data processing
+│   ├── test_model.py             # Unit tests for model
+├── requirements.txt              # Python dependencies
+├── Dockerfile                    # For containerizing the app
+├── .gitignore                    # Ignored files
+└── LICENSE                       # License information
